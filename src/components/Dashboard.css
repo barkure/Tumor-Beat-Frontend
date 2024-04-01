@@ -1,0 +1,20 @@
+.dashboard-logo-vertical {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 auto;
+  }
+  
+  .dashboard-logo-vertical-small {
+    font-size: 0.8rem; /* 或者你想要的任何小字体大小 */
+    width: 90%;
+  }
+  
+  .dashboard-header {
+    text-align: left;
+    line-height: 30px;
+    margin-left: 6.3%;
+  }

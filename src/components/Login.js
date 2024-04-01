@@ -2,7 +2,7 @@
 import { Layout, Button, Form, Input } from 'antd'; // 引入antd组件
 import { UserOutlined, LockOutlined } from '@ant-design/icons'; // 引入antd图标
 
-const { Content } = Layout;
+const { Content, Footer } = Layout;
 
 const LayoutStyle = {
     minHeight: '100vh',
@@ -15,7 +15,7 @@ const contentStyle = {
     flexDirection: 'column',
     textAlign: 'center',
     margin: '0 auto',
-    marginTop: '25vh',
+    marginTop: '15%',
 };
 
 
@@ -28,7 +28,7 @@ return (
             <div className="login-title">
                 <h1>Tumor Beat • 后台登录</h1>
             </div>
-            <Form name="normal_login" style={{ marginTop: '20%' }}>
+            <Form name="normal_login" style={{ marginTop: '15%' }}>
                 <Form.Item name="userNameOrEmail"
                     rules={[
                         {
@@ -60,6 +60,9 @@ return (
                 </Form.Item>
             </Form>
         </Content>
+        <Footer style={{ textAlign: 'center' }}>
+            Tumor Beat ©2023 Created by Tumor Beat Team.
+        </Footer>
     </Layout>
 );
 };
